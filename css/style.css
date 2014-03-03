@@ -8,10 +8,13 @@
 }
 
 .resume {
+	border:1em #888 solid;
 	width:770px;;
 	margin:auto;
 }
 
 #resume {
 	border:1em #888 solid;
+	width:770px;;
+	margin:auto;
 }
