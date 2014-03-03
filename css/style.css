@@ -25,17 +25,6 @@
 }
 
 .gradient {
-	background-color: #777;
-	color: #ddd;
-	width:25em;
-	text-align:center;
-}
-
-.edu_table {
-	text-align:center;
-}
-
-.gradient {
 	/* Thank You http://www.colorzilla.com/gradient-editor/  
 	 * Used for accordion on experience
 	 * */
@@ -69,4 +58,17 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 	color:black;
+}
+
+.edu_table {
+	border-radius: 10px;
+	border:2px dashed blue;
+	padding:5px 5px 5px 5px;
+	margin:auto;
+}
+
+.edu_table td {border: 2px dashed blue; padding:5px 5px 5px 5px; text-align:center;}
+
+.space {
+	margin:1em;
 }
