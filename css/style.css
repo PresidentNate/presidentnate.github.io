@@ -22,11 +22,11 @@
 
 .accordion {
 	text-align: center;
-	margin:auto;
 }
 
 .gradient {
 	background-color: #777;
 	color: #ddd;
 	width:20em;
+	text-align:center;
 }
