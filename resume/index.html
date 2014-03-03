@@ -2,8 +2,8 @@
 
 <html>
   <head>
-	<link rel="stylesheet" href="css/style.css">
-	<script src="presidentnate.github.io/js/processing.js"
+	<link rel="stylesheet" href="http://presidentnate.github.io/css/style.css">
+	<script src="http://presidentnate.github.io/js/processing.js"></script>
 	
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>	
@@ -74,19 +74,26 @@
     
     <div class="jumbotron">
   	  <article class="container intro">
-  	  	<h1>Hello</h1>
-  	  	<p>Welcome to my website!</p>
+  	  	<h1>Resume</h1>
+  	  	<p>Here's my resume, written in Java!</p>
   	  </article>
     </div>
 	   
-	<article>    
-		<h1> Nothing here yet... </h1>
-		<p>Bear with me while I recreate my site....</p>
+	<article>
+		    
+		<div align="center" class="resume">
+			<canvas id="Resume" data-processing-sources="Resume.pde" width="750" height="1000">
+				<p style="color:white">Your browser does not support the canvas tag.</p>
+				<!-- Note: you can put any alternative content here. -->
+			</canvas>
+			
+			<noscript>
+				<p style="color:white">JavaScript is required to view the contents of this page.</p>
+			</noscript>
+	    </div>
+
 	</article>    
+	
   </body>
-
-
-
-
 
 </html>
