@@ -19,3 +19,12 @@
 	width:750px;
 	margin:auto;
 }
+
+.accordion {
+	text-align: center;
+}
+
+.gradient {
+	background-color: #777;
+	color: #ddd;
+}
