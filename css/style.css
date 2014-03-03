@@ -27,10 +27,46 @@
 .gradient {
 	background-color: #777;
 	color: #ddd;
-	width:30em;
+	width:25em;
 	text-align:center;
 }
 
 .edu_table {
 	text-align:center;
+}
+
+.gradient {
+	/* Thank You http://www.colorzilla.com/gradient-editor/  
+	 * Used for accordion on experience
+	 * */
+	background: rgb(38,85,139); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(38,85,139,1) 38%, rgba(206,219,233,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(38%,rgba(38,85,139,1)), color-stop(100%,rgba(206,219,233,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(38,85,139,1) 38%,rgba(206,219,233,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(38,85,139,1) 38%,rgba(206,219,233,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(38,85,139,1) 38%,rgba(206,219,233,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(38,85,139,1) 38%,rgba(206,219,233,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26558b', endColorstr='#cedbe9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* For Experience page  */
+.head {
+	border-radius:10px;
+	text-align:center;
+	width: 500px;
+	margin:auto;
+	color: #dddddd;
+}
+
+.head:hover {	
+	background: rgb(206,219,233); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(206,219,233,1) 33%, rgba(38,85,139,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(33%,rgba(206,219,233,1)), color-stop(100%,rgba(38,85,139,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(206,219,233,1) 33%,rgba(38,85,139,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(206,219,233,1) 33%,rgba(38,85,139,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(206,219,233,1) 33%,rgba(38,85,139,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(206,219,233,1) 33%,rgba(38,85,139,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	color:black;
 }
