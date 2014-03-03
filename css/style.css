@@ -67,7 +67,7 @@
 	margin:auto;
 }
 
-.edu_table td {border: 2px dashed blue; padding:5px 5px 5px 5px; text-align:center;}
+.edu_table td {border: 2px solid blue; padding:5px 5px 5px 5px; text-align:center;}
 
 .space {
 	margin:1em;
