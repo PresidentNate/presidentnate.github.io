@@ -20,13 +20,15 @@
 	margin:auto;
 }
 
+
+/* For Experience page  */
 .accordion {
 	text-align: center;
 }
 
 .gradient {
 	/* Thank You http://www.colorzilla.com/gradient-editor/  
-	 * Used for accordion on experience
+	 * Used for accordion on experience page
 	 * */
 	background: rgb(38,85,139); /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover, rgba(38,85,139,1) 38%, rgba(206,219,233,1) 100%); /* FF3.6+ */
@@ -38,13 +40,13 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26558b', endColorstr='#cedbe9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-/* For Experience page  */
 .head {
 	border-radius:10px;
 	text-align:center;
 	width: 500px;
 	margin:auto;
 	color: #dddddd;
+	
 }
 
 .head:hover {	

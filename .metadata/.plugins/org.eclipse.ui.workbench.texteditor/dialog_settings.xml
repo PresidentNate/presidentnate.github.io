@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="wholeword"/>
-		<item value="background-color" key="selection"/>
+		<item value="class=&quot;center&quot;" key="selection"/>
 		<list key="findhistory">
+			<item value="class=&quot;center&quot;"/>
+			<item value="✦"/>
 			<item value="background-color"/>
 		</list>
 	</section>
