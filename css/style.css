@@ -75,3 +75,8 @@
 .space {
 	margin:25em;
 }
+
+#GAF_projects_horizontal_box {
+    border: 0px solid #5D5E91;
+    background-color: white;
+}
