@@ -1,10 +1,72 @@
+
+html {
+	background-color:#ddd;
+}
+
+.header {
+	width:1440px;
+	height:75px;
+	border:none;
+}
+.divheader{
+	margin:auto;
+	box-align:center;
+	width:auto;
+}
+.menubar{
+	text-align: center;
+	width:auto;
+	margin:auto;
+	margin-bottom:-1em;	
+}
+
+.hidden {
+	display:none;
+}
+
 .jumbotron {
-	margin-top:-1.5em;
 	background-image: url( "space_image.jpg" );
+	margin-top:-2em;
+	position:relative;
 }
 
 .intro {
 	color:white;
+}
+
+.introsent{
+	margin:2em;	
+	background-color:#888888;
+	border-radius: 1em;
+}
+.introsent h1 {
+	margin-left:6em;
+	padding: 1em;
+}
+.introsent p {
+	margin-left: 4em;
+	padding: 1em;
+}
+.introsent article {
+	margin:2em;
+}
+.introsent a {
+	color:black;
+}
+
+@media (max-width:767px) {
+	.introsent h1 {
+		margin-left:0.5em;
+	}
+	.introsent p {
+		margin-left:0.75em;
+	}
+}
+
+@media (max-width:479px) {
+	.header {
+		width:auto;
+	}
 }
 
 .resume {
@@ -12,11 +74,15 @@
 	width:780px;
 	margin:auto;
 	margin-bottom:5em;
+	border-radius:1em;
+}
+.resume canvas {
+	background-color:#ddd;
 }
 
 #resume {
 	border:1em #888 solid;
-	width:750px;
+	width:750px; /* We must use exact px width due to nature of the Processing JS plugin */
 	margin:auto;
 }
 
@@ -24,6 +90,10 @@
 /* For Experience page  */
 .accordion {
 	text-align: center;
+	background-color:#ddd;
+	margin:3em;
+	border-radius:1em;
+	padding: 1em;
 }
 
 .gradient {
