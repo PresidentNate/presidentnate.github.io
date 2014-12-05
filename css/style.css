@@ -1,18 +1,14 @@
+* {
+	background-color:#0000
+}
 
-html {
+p {
+	color:#000;
+}
+body {
 	background-color:#ddd;
 }
 
-.header {
-	width:1440px;
-	height:75px;
-	border:none;
-}
-.divheader{
-	margin:auto;
-	box-align:center;
-	width:auto;
-}
 .menubar{
 	text-align: center;
 	width:auto;
@@ -34,24 +30,32 @@ html {
 	color:white;
 }
 
-.introsent{
-	margin:2em;	
-	background-color:#888888;
+.colintro {
+	background-color:#888;
+	border-radius:1em;
+	margin:0.1em;
+	padding-bottom:0.1em;
+	margin-top:2em;
+	margin-bottom:3em;
+}
+.row {
+	width:auto;
+}
+.introsent {
+	background-color:#888;	
 	border-radius: 1em;
+	margin:3em;
+	text-align:center;
 }
-.introsent h1 {
-	margin-left:6em;
-	padding: 1em;
-}
-.introsent p {
-	margin-left: 4em;
-	padding: 1em;
-}
-.introsent article {
-	margin:2em;
-}
-.introsent a {
-	color:black;
+
+@media (min-width:1200px) {
+	.colintro {
+		width:20em;
+		height:25em;
+	}
+	.pc-specs {
+		height:32em;
+	}
 }
 
 @media (max-width:767px) {
@@ -90,7 +94,7 @@ html {
 /* For Experience page  */
 .accordion {
 	text-align: center;
-	background-color:#ddd;
+	background-color:#888;
 	margin:3em;
 	border-radius:1em;
 	padding: 1em;
@@ -113,9 +117,9 @@ html {
 .head {
 	border-radius:10px;
 	text-align:center;
-	width: 500px;
+	width: 50%;
 	margin:auto;
-	color: #dddddd;
+	color: #ddd;
 	
 }
 
@@ -144,6 +148,7 @@ html {
 
 .space {
 	margin:25em;
+	background-color:#ddd;
 }
 
 #GAF_projects_horizontal_box {

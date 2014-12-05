@@ -1,7 +1,7 @@
 /** Resume
  *  This is a program that prints out my resume
  *  in a fun and graphically pleasing way.
- *  Version 1.1
+ *  Version 1.2
  *  This is just the setup of the resume,
  *  I'll add more exciting stuff later,
  *  such as: animations, colors, different fonts/font sizes, etc.
@@ -9,21 +9,21 @@
  
 //String array for my sentences
 String[] sent = {
-  "Nathan Soucy", 
-  "PO Box 80, Milford, NH 03055", 
-  "Email: Nathan.Soucy@iCloud.com",
-  "LinkedIn: linkedin.com/in/nathansoucy",
+  "NateSnowstorm", 
+  "**address hidded**", 
+  "Email: NateSnowstormMC@gmail.com",
+  "**LinkedIn account hidded**",
   "Github: github.com/PresidentNate",
   "",
   "OBJECTIVE",
   "To continually learn and broaden my skill base while working in a fun, exciting, and challenging ",
-  "atmosphere, all while doing what I love; solving tough challenges with software, building engaging",
+  "atmosphere. All while doing what I love; solving tough challenges with software, building engaging",
   "user interfaces, and working with amazingly talented, like minded, individuals. I’m always trying to",
   "learn as much I can about software development, and am eager to get right to work building amazing",
   "software. Plus, I have all the requisite skills I need to be successful, I’m proficient in: Objective C, Java,",
   "Python, Ruby, HTML(5), CSS(3), JavaScript, Object Oriented design, and so on. I love working in",
-  "teams, and I love AGILE development. I just want an opportunity where I can utilize all of the above,",
-  "money or benefits don’t matter to me, although they are nice, I’d rather do what I love, develop software.",
+  "teams, and I love AGILE development. I just want an opportunity where I can utilize all of the above, I",
+  "just want to do what I love, develop software.",
   "",
   "SKILLS",
   "      Computer Skills",
@@ -97,7 +97,7 @@ void print_string() {
   
   //Everything else -aligned left
   textAlign(LEFT);
-  int len = sent.length; //gets the lenngth of the array
+  int len = sent.length; //gets the length of the array
   for (int i=6; i < len; i++) {
     text(sent[i], 25, i*20);
   }
