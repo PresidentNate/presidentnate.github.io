@@ -53,6 +53,7 @@ body {
 	border-radius: 0.5em;
 	text-align:center;
 	border:none;
+	scroll:none;
 }
 .stream {
 	/*background-image: url("TwitchChannel.png");*/
