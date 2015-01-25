@@ -1,7 +1,8 @@
 /** Resume
  *  This is a program that prints out my resume
  *  in a fun and graphically pleasing way.
- *  Version 1.2
+ *  Version 1.2.1 - Added random colors.
+ *  Version 1.2 - Final version
  *  This is just the setup of the resume,
  *  I'll add more exciting stuff later,
  *  such as: animations, colors, different fonts/font sizes, etc.
@@ -10,9 +11,9 @@
 //String array for my sentences
 String[] sent = {
   "NateSnowstorm", 
-  "**address hidded**", 
+  "**address hidden**", 
   "Email: NateSnowstormMC@gmail.com",
-  "**LinkedIn account hidded**",
+  "**LinkedIn account hidden**",
   "Github: github.com/PresidentNate",
   "",
   "OBJECTIVE",
@@ -99,6 +100,7 @@ void print_string() {
   textAlign(LEFT);
   int len = sent.length; //gets the length of the array
   for (int i=6; i < len; i++) {
+    fill(random(sent.length*3),random(sent.length*3),random(sent.length*3));
     text(sent[i], 25, i*20);
   }
 }
