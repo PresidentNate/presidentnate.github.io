@@ -1,7 +1,7 @@
 /** Resume
  *  This is a program that prints out my resume
  *  in a fun and graphically pleasing way.
- *  Version 1.2.1 - Added random colors.
+ *  Version 1.2.1 - Added random colors. For fun. Colors are fun.
  *  Version 1.2 - Final version
  *  This is just the setup of the resume,
  *  I'll add more exciting stuff later,
@@ -69,8 +69,8 @@ String[] sent = {
   "Obtained the Marketing Most Improved Award for Marketing II, 2010",
   "",
   "EDUCATION",
-  "9/2006 - 6/2010        Milford High School         Milford, NH",
-  "9/2010 - 6/2012        Berkeley College            Woodland PArk, NJ",
+  "9/2006 - 6/2010        High School                 Ask for details",
+  "9/2010 - 6/2012        College                     Ask for details",
   "5/2012 - Current       CodeCademy                  Online",
   "5/2012 - Current       Stanford on iTunes U        Online",
   "6/2013 - 9/2013        Code School                 Online",
